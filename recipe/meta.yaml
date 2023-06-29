@@ -1,5 +1,5 @@
 {% set name = "pint-pal" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pint_pal-{{ version }}.tar.gz
-  sha256: 2233094d49398fe74fb06a1aa940610c741ca3eb717dc67c0b1a102f3d3dd8f7
+  sha256: d8e8d686d49d32544359b14410897a7fd9a00433890ba8ac357dbc47ac1fda81
 
 build:
   noarch: python
