@@ -1,11 +1,11 @@
-About pint-pal
-==============
+About pint-pal-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pint-pal-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/pint-pal/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pint-pal-feedstock/blob/main/LICENSE.txt)
 
 Summary: A long-lived repository for NANOGrav Pulsar Timing analysis work.
 
