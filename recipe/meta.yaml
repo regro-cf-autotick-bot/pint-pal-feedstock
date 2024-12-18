@@ -1,18 +1,18 @@
 {% set name = "pint-pal" %}
-{% set version = "0.1.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pint_pal-{{ version }}.tar.gz
-  sha256: 2233094d49398fe74fb06a1aa940610c741ca3eb717dc67c0b1a102f3d3dd8f7
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pint_pal-{{ version }}.tar.gz
+  sha256: cfa20c16b1e5ee1bb879628021dbe59e8a2056f08268892243ac9f552e60f41f
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
